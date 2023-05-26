@@ -1,0 +1,164 @@
+.container-invoice{
+    position: relative;
+    top: 140px;
+    /* background-color: #eaeaea; */
+}
+.rowinvoice{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-image{
+    width: 340px;
+    height: 340px;
+    position: relative;
+    right:14px;
+    border-radius: 8px;
+}
+.title{
+    font-weight: 800;
+    font-size: 1.28571rem;
+    color: #212121;
+}
+.stok{
+    font-weight: 100;
+    font-size: 15px;
+    color: #212121;
+}
+.harga-invoice{
+    margin-top: 20px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+}
+.detail{
+    margin-top: 20px;
+}
+.detail-text{
+    font-weight: 600;
+    color: #FFC107;
+    width: 50px;
+    border-bottom: 2px solid #FFC107;
+}
+.description-infoice{
+    margin-left: 30px;
+    width: 450px;
+}
+.description-text{
+    margin-top: 50px;
+}
+.line-detail{
+    position: relative; 
+    top:190px;
+}
+.container-interaction{
+    width: 260px;
+    height: 450px;
+    position: relative;
+    left: 38px;
+}
+.cardnyam{
+    border:1px solid silver;
+    border-radius: 8px;
+    list-style: n;
+}
+.nyam-text{
+    font-weight: bold;
+}
+.card-jumlah-dan-catatan{
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    border-radius: 8px;
+    list-style: none;
+}
+.contet-interaction-invoice{
+    padding: 15px;
+}
+.atur-jumlah-text{
+    font-weight: bold;
+    
+}
+.jumlah-beli-Container-invoice{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.kemasan{
+    color: black;
+    margin-top: 20px;
+    font-size: 12px;
+}
+.container-btn-t-k-stok{
+    display: flex;
+}
+.jumlah-beli-Container{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 120px;
+    height: 30px;
+}
+.tambah-dan-kurang{
+    width: 50px;
+    width: 25px;
+    border: none;
+    cursor: poijnter;
+    outline: none;
+    background-color: transparent;
+}
+.tambah-dan-kurang:hover{
+    color: #FFC107;
+    outline: none;
+}
+.tambah{
+    width: 25px;
+    margin-left: 64px;
+}
+.tambah-dan-kurang:focus{
+    outline: none;
+} 
+.stok-in-interaction{
+    margin-left: 15px;
+}
+.min-pembelian{   
+    color: #6D7588; 
+    margin-top: 20px;
+    font-size: 11px;
+}
+.catatan-input{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 8px;
+    list-style: n;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+.subtotal-text{
+    margin-top: 20px;
+    color: black;
+    
+}
+.btn-beli-dan-keranjang{
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #FFC107;
+    background-color: transparent;
+}
+li{
+    list-style: none;
+}
+.btn-tambah-keranjang{
+    color: white    ;
+    margin-top: 20px;
+    background-color: #FFC107;
+}
+.btn-beli-menu{
+    color: #FFC107;
+    text-align: center;
+}
+.input-intrac-style{
+    border: none;
+    width: 110px;
+    background-color: transparent;
+}

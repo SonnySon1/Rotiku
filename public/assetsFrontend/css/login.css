@@ -1,0 +1,111 @@
+.content-container{
+    width: 365px;
+    /* border: 1px solid black; */
+    height: 533px;
+    position: relative;
+    margin: 0 auto;
+    top: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+}
+.image-logo{
+    margin-top: 20px;
+}
+.text-masuk-dan-daftar{
+    display: flex;
+}
+.text-daftar{
+    color: #ffb801;
+    right: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    position: absolute;
+}
+.logo{
+    text-align: center;
+}
+.form-label{
+    display: block  !important;
+}
+.form-login{
+    margin-top: 40px;
+    width: 100% !important;
+}
+.wr-login{
+    padding: 30px;
+    margin-top: 100px;
+}
+.text-masuk{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.email, .password{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    display: inline-block;
+    pointer-events: none;
+    margin-bottom: 4px;
+    color: rgba(49,53,59,0.68);
+}
+.input-form{
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+
+
+.input-form:focus{
+    border: 1px solid #ffb801;
+    outline: none;
+}
+.form-email{
+    width: 100%;
+    padding: 10px;
+}
+.form-password{
+    width: 100%;
+    padding: 10px;
+}
+
+.login-btn{
+    width: 100%;    
+    margin-top: 10px;
+    background-color: #E4EBF5;
+    color: #c4d2ff;
+    border: #E4EBF5;
+    padding: 10px !important;
+
+    cursor: not-allowed;
+}
+.login-btn:hover{
+    background-color: #ffb801;
+    color: white !important;
+}
+.line{
+    margin-top: 40px;
+}
+.atau-masik-dengan{
+    position: absolute;
+    background-color: white;
+    bottom: 150px;
+    margin-left: 90px;
+}
+.login-google{
+    width: 100%;    
+    margin-top: 10px;
+    padding: 10px !important;
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid silver !important;
+}
+.login-google:hover{
+    background-color: black !important;
+    color: white !important;
+}
+.image-google{
+    margin-top: 9px;
+    position: absolute;
+}

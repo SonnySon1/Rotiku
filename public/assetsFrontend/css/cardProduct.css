@@ -1,0 +1,62 @@
+.judulMenu{
+    position: relative;
+	top: 20px;
+    left: 10px;
+	flex: 1 1 auto;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    color: rgba(49, 53, 59, 0.96);
+    overflow: hidden;
+    overflow-wrap: break-word;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0px;
+    font-size: 1.42857rem;
+    letter-spacing: -0.1px;
+    line-height: 26px;
+}
+.containerCard{
+    display: flex;
+    position: relative;
+    right: 5px;
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 10px;
+    border-radius: 12px;
+    margin-top: 30px;
+    width: 175px;
+    height: 312px;
+    /* box-shadow: ; */
+}
+.imageProduct{
+    width: 100%;
+    border-radius: 12px 12px 0px 0px ;
+}
+.subtitleProduct{
+    margin-left: 10px;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; 
+   -webkit-box-orient: vertical;
+    color: black;
+    font-size: 12px;
+}
+.hargaProduct{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold !important;
+}
+.line-harga{
+    height: 2px;
+    width: 90%;
+    background-color: black !important;
+}
+.tersediaProduct{
+    margin-left: 10px;
+    font-size: 1;
+}

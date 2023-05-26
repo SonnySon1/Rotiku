@@ -1,0 +1,177 @@
+.container-beli {
+    position: relative;
+    top: 140px;
+    height: 1000px;
+    /* background-color: #eaeaea; */
+}
+.belilangsung-text {
+    font-size: 25px;
+    font-weight: 800;
+}
+.troll-container {
+    padding: 20px;
+    background-color: #f6fff8;
+    width: 710px;
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+.img-troli {
+    width: 95px;
+}
+.notic-text{
+    margin-top: 20px;
+}
+.barang-y-beli-text{
+    font-size: 19px;
+    font-weight: 800;
+    margin-top: 30px;
+}
+.store-wp{
+    margin-top: 15px;
+    display: flex;
+}
+.store-text{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: 800;
+}
+.address-text{
+    color: #6D7588;
+    font-size: 12px;
+}
+.picmenu{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.descriprion-menu{
+ margin-left: 20px;
+}
+.img-menu-image{
+    border-radius: 5px;
+}
+.merek{
+    font-size: 14px;
+    color: black;
+}
+.berat{
+    font-size: 12px;
+}
+.harga{
+    font-size: 14px;
+    font-weight: 800;
+}
+.view-intrac-container-ringkasanbelanja{
+    /* height: 500px; */
+    width: 400px;
+    /* border: 1px solid black; */
+}
+.wr-beli{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-ring{
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+    border: 1px solid black;
+}
+.head-content{
+    padding: 13px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+.head-content>h3{
+    font-size: 13px;
+    font-weight: 800;
+}
+.container-hargadanbarang{
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 15px;
+}
+.flex-display-ring{
+    display: flex;
+}
+.total-harga-ring{
+    margin-right: 15px;
+    position: relative;
+    font-weight: normal;
+    left: 100%;
+}
+.jdl-pebayaran-ring{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+.total-tagihan{
+    font-weight: 800;
+    color: black;
+}
+.lbl_ring{
+    color: black;
+    font-size: 12px;
+}
+.color-wt{
+    color: #6D7588;
+    font-size: 12px;
+}
+.harga-text{
+    font-weight: normal;
+}
+.jumlah-input{
+    width: 55px;
+    text-align: center;
+ 
+}
+.jumlah{
+    position: absolute;
+    /* margin-left: 25px; */
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+.input-intrac-style-beli{
+    width: 80px;
+    border: none !important;
+    position: relative ;
+    text-align: right;
+    /* left: 100%; */
+    right: 9px;
+    background-color: transparent!important;
+}
+.input-barang-style-beli{
+    width: 30px;
+    text-align: right !important;
+    background-color: transparent !important;
+    border: none;
+}
+.input-total-tagihan{
+    width: 100px;
+    background-color: transparent ;
+    border: none !important;
+    color: black;
+    text-align: right;
+    font-weight: bold;
+}
+.input-biaya-layanan{
+    width: 80px;
+    text-align: right;
+    background-color: transparent !important;
+    border: none !important;
+    position: relative !important;
+}
+.right-harga-barang{
+    left: 155px;
+}
+.right-harga-jasa{
+    left: 205px;
+
+}
+.btn-bayar{
+    width: 100%;
+}
+.textinputhargarill{
+    border: none;
+    background-color: transparent;
+
+}

@@ -1,0 +1,78 @@
+{{--  head  --}}
+@include('layouts.head')
+
+<body>
+    <div class="wrapper">
+        @include('layouts.sidebar')
+
+        <div class="main">
+
+            {{--  navbar  --}}
+            @include('layouts.navbar')
+            {{--  endnavbar  --}}
+            <main class="content">
+                <div class="container-fluid p-0">
+                    <div class="mb-3">
+                        <h1 class="h3 d-inline align-middle">Tambah Stok Roti</h1>
+                        <p class="badge bg-primary ms-2" target="_blank"> rotiku <i
+                                class="fas fa-fw fa-external-link-alt"></i></p>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card mb-4">
+                                <div class="card-header">
+                                    <h5 class="card-title">Tambah Stok Roti</h5>
+                                    <h6 class="card-subtitle text-muted">Isi form berikut untuk menambahkan stok roti
+                                        toko kamu</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="">
+                                            <div class="mb-3">
+                                                <form action="{{ route('admin.dataroti.store') }}" method="post"
+                                                    enctype="multipart/form-data" id="FormData">
+                                                    @csrf
+                                                    <img id="preview" src="{{ asset('jk-placeholder-image.jpg') }}"
+                                                        alt="Gambar Roti" style="max-width: 200px; margin-top: 10px;">
+                                                    <input type="file" id="gambar" name="gambar" onchange="previewImage(event)" class="form-control mt-2">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="roti">Nama Roti</label>
+                                                <input id="roti" name="roti" type="text" class="form-control"
+                                                    placeholder="Nama roti">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="roti">Description</label>
+                                                <input id="roti" name="description" type="text" class="form-control"
+                                                    placeholder="description">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-label" for="id_kategori">Kategori</label>
+                                                <select class="form-select" id="id_kategori" name="id_kategori">
+                                                    @foreach ($kategori as $d)
+                                                        <option value="{{ $d->id_kategori }}">{{ $d->kategori }}
+                                                        </option>
+                                                    @endforeach
+                                                </select>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-labeal" for="harga">Harga</label>
+                                                <input id="harga" name="harga" type="number" class="form-control"
+                                                    placeholder="Harga">
+                                            </div>
+                                            <div class="mb-3">
+                                                <label class="form-labeal" for="stok">Stok</label>
+                                                <input id="stok" name="stok" type="number" class="form-control"
+                                                    placeholder="Stok">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <button class="btn btn-primary me-1" type="submit" id="tambah">Tambahkan Stok</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </main>
+            @include('layouts.footer')
